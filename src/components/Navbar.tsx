@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Switch from "./Switch";
 
 const NavBar = () => {
   return (
@@ -9,6 +10,7 @@ const NavBar = () => {
           Home
         </Link>
         <Link to="/favorite">Favorites</Link>
+        <Switch />
       </div>
     </div>
   );
