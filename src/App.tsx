@@ -9,7 +9,7 @@ import { Flip, ToastContainer } from "react-toastify";
 
 function App() {
   return (
-    <div className="bg-gray-400 min-h-screen">
+    <div className="bg-gray-600 min-h-screen">
       <Provider store={store}>
         <BrowserRouter>
           <Navbar />
