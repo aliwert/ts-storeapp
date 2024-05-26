@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Switch from "./Switch";
 
-const NavBar = () => {
+const Navbar = () => {
   return (
     <div className="flex justify-between items-center px-3 h-[60px] text-white bg-gray-600">
       <h3>AliWert Store</h3>
