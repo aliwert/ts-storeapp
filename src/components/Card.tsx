@@ -22,7 +22,7 @@ const Card: React.FC<ICard> = ({ item, text, handleFunc }) => {
         alt={item.title}
       />
       <div className="flex justify-between items-center bg-gray-700 p-3">
-        <h2 className="text-gray-100 font-bold ">${item.price}</h2>
+        <h2 className="text-gray-100 font-bold ">{item.price}</h2>
         <p className="text-xl text-gray-200 capitalize border-indigo-600 bg-inherit p-1 border-collapse rounded-lg ">
           {" "}
           {item.category}{" "}
