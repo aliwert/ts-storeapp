@@ -27,6 +27,12 @@ const Card: React.FC<ICard> = ({ item, text, handleFunc }) => {
           {" "}
           {item.category}{" "}
         </p>
+        <p className="text-xl text-gray-200 capitalize border-indigo-600 bg-inherit p-1 border-collapse rounded-lg ">
+          {" "}
+          Stock: {item.stock}{" "}
+        </p>
+      </div>
+      <div className="p-2">
         <button
           className="bg-gray-300 p-1 rounded-lg "
           onClick={() => handleFunc(item)}

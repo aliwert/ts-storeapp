@@ -35,7 +35,6 @@ export const productsSlice = createSlice({
     removeFavorites(state, action: PayloadAction<Product[]>) {
       state.favorites = action.payload;
     },
-    // Use the PayloadAction type to declare the contents of `action.payload`
     fetchFail(state) {
       state.loading = false;
       state.error = true;
